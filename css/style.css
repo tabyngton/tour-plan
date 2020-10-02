@@ -595,7 +595,7 @@ img {
   }
 }
 
-@media (max-width: 922px) {
+@media (max-width: 992px) {
   .container {
     max-width: 700px;
   }
@@ -610,7 +610,8 @@ img {
     margin-left: auto;
   }
   .navbar-menu {
-    padding: 22px 0;
+    max-width: 674px;
+    padding: 22px 13px;
   }
   .navbar-menu__link {
     font-size: 12px;
